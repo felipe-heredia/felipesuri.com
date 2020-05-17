@@ -21,15 +21,10 @@ export const BottomBarGroup = styled.div`
 `;
 
 export const BottomBarItem = styled.span`
-  /* color: var(--texts); */
   cursor: pointer;
   display: block;
   height: 3.2rem;
   padding: 0.9rem;
   position: relative;
   width: 3.2rem;
-
-  /* &:hover {
-    color: var(--highlight);
-  } */
 `;

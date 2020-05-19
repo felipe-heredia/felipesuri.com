@@ -1,0 +1,5 @@
+[build]
+  command = "gatsby build"
+  publish = "public"
+
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload

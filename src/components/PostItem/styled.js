@@ -13,10 +13,44 @@ export const PostItemWrapper = styled.article`
   margin-bottom: 15px;
   padding: 35px;
   color: #d0d4f5;
-  transition: 1s all;
+
+  border-radius: 10px;
+  height: 100%;
+  position: relative;
+  will-change: border-color;
+
+  &:after,
+  &:before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: transform 0.5s;
+  }
+
+  &:before {
+    border-radius: 10px;
+    border-left: 1px solid #8e4dff;
+    border-right: 1px solid #8e4dff;
+    transform: scaleY(0);
+  }
+
+  &:after {
+    border-radius: 10px;
+    border-bottom: 1px solid #8e4dff;
+    border-top: 1px solid #8e4dff;
+    transform: scaleX(0);
+  }
 
   &:hover {
-    color: #7e8094;
+    &:before {
+      transform: scaleY(1);
+    }
+    &:after {
+      transform: scaleX(1);
+    }
   }
 `;
 

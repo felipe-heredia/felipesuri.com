@@ -12,7 +12,8 @@ export const PostItemWrapper = styled.article`
   border: 1px solid #161616;
   margin-bottom: 15px;
   padding: 35px;
-  color: #fff;
+  color: #d0d4f5;
+  transition: 1s all;
 
   &:hover {
     color: #7e8094;
@@ -44,13 +45,11 @@ export const PostItemCategoryWrapper = styled.div`
 
 export const PostItemLabel = styled(Label)`
   display: block;
-  color: #cacaca;
   width: 15px;
   height: 15px;
 `;
 
 export const PostItemCategory = styled.p`
-  color: #cacaca;
   margin-left: 15px;
   text-transform: lowercase;
 `;

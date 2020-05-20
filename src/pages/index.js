@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useStaticQuery, graphql } from "gatsby";
 
 import Author from "../components/Author";
@@ -11,6 +11,7 @@ const IndexPage = () => {
   const { allMarkdownRemark } = useStaticQuery(graphql`
     query PostList {
       allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+        totalCount
         edges {
           node {
             frontmatter {
@@ -31,7 +32,6 @@ const IndexPage = () => {
 
   const postList = allMarkdownRemark.edges;
 
-  console.log(postList);
   return (
     <Layout>
       <SEO title="Home" />

@@ -10,8 +10,8 @@ import BottomBar from "../BottomBar";
 const Layout = ({ children }) => (
   <S.LayoutWrapper>
     <GlobalSyles />
-    <Header />
     <S.LayoutMain>{children}</S.LayoutMain>
+    <Header />
     <BottomBar />
   </S.LayoutWrapper>
 );

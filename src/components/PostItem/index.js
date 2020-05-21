@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import * as S from "./styled";
 
 const PostItem = ({ slug, category, date, timeToRead, title, description }) => (
-  <S.PostItem to={`/blog/${slug}`}>
+  <S.PostItem to={slug}>
     <S.PostItemWrapper>
       <S.PostItemDate>
         {date} • {timeToRead} min de leitura

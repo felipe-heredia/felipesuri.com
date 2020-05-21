@@ -2,12 +2,12 @@ const links = [
   {
     label: "Blog",
     target: "_self",
-    link: "/blog",
+    url: "/blog",
   },
   {
     label: "Portifólio",
     target: "_self",
-    link: "/lab",
+    url: "/lab",
   },
 ];
 

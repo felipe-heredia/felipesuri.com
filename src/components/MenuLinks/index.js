@@ -11,7 +11,7 @@ const MenuLinks = () => (
         return (
           <S.MenuLinksItem key={i}>
             <S.MenuLinksLink
-              href={link.url}
+              to={link.url}
               title={link.label}
               target={link.target}
               rel="noopener noreferrer"

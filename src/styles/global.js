@@ -1,7 +1,25 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-html, body, div, span, applet, object, iframe,
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px #181818; 
+    border-radius: 30px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #9730BF; 
+    border-radius: 30px;
+    animation: background 1s;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #aa52cc; 
+  }
+
+  html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
   del, dfn, em, img, ins, kbd, q, s, samp,
@@ -64,8 +82,8 @@ html, body, div, span, applet, object, iframe,
 
   img {
     display: block;
-  	width: 100%;
-  	height: auto;
+    width: 100%;
+    height: auto;
   }
 
 	textarea:focus, input:focus, select:focus {

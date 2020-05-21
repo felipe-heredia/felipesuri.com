@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const AuthorWrapper = styled.article`
   color: #fff;
 
-  padding-top: 135px;
-  padding-bottom: 85px;
+  padding-top: 5rem;
+  padding-bottom: 2.5rem;
 `;
 
 export const AuthorTitle = styled.h1`

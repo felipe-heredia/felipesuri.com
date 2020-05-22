@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-import { Link } from "gatsby";
-
 export const PostListWrapper = styled.section`
   display: block;
   padding-bottom: 7rem;

@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-import { Link } from "gatsby";
-
 export const LabWrapper = styled.article`
   margin-bottom: 1.2rem;
   padding: 35px;

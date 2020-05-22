@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const AuthorWrapper = styled.article`
   color: #fff;
 
-  padding-top: 5rem;
+  padding-top: 2rem;
   padding-bottom: 2.5rem;
 `;
 

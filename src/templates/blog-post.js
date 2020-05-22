@@ -20,7 +20,7 @@ const BlogPost = ({ data }) => {
           {post.frontmatter.date} • {post.timeToRead} min de leitura
         </S.PostDate>
         <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
-        <S.PostDescription>{post.frontmatter.title}</S.PostDescription>
+        <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
       </S.PostHeader>
       <S.MainContent>
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>

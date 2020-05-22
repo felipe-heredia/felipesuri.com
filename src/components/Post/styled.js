@@ -1,19 +1,29 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const PostHeader = styled.header`
   color: #fff;
   margin: auto;
   padding-top: 5rem;
+
+  ${media.lessThan("large")`
+    padding-top: 1.2rem;
+  `}
 `;
 
 export const PostTitle = styled.h1`
   font-size: 2.2rem;
   font-weight: 500;
   margin: 1rem auto;
+
+  ${media.lessThan("large")`
+    font-size: 1.8rem;
+  `}
 `;
 
 export const PostDescription = styled.h2`
   font-size: 1.5rem;
+  padding-bottom: 0.9rem;
   font-weight: 200;
 `;
 

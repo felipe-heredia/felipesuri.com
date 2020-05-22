@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const BottomBarWrapper = styled.aside`
   align-items: center;
@@ -27,4 +28,8 @@ export const BottomBarItem = styled.span`
   padding: 0.9rem;
   position: relative;
   width: 3.2rem;
+
+  ${media.lessThan("large")`
+    padding: 0.9rem 0;
+  `}
 `;

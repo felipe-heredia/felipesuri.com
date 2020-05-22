@@ -1,10 +1,16 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const AuthorWrapper = styled.article`
   color: #fff;
+  display: column;
 
   padding-top: 2rem;
   padding-bottom: 2.5rem;
+
+  ${media.lessThan("large")`
+    display: none;
+  `}
 `;
 
 export const AuthorTitle = styled.h1`

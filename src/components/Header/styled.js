@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 import { Link } from "gatsby";
 
@@ -19,6 +20,10 @@ export const HeaderGroup = styled.div`
   margin: auto 100px;
   display: flex;
   align-items: center;
+
+  ${media.lessThan("large")`
+    margin: auto;
+  `}
 `;
 
 export const HeaderItem = styled(Link)`

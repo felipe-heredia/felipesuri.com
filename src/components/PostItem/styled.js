@@ -1,17 +1,17 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 import { Label } from "@styled-icons/material-outlined/Label";
 import { Link } from "gatsby";
 
 export const PostItem = styled(Link)`
-  padding-top: 160px;
   text-decoration: none;
 `;
 
 export const PostItemWrapper = styled.article`
   border: 1px solid #161616;
-  margin-bottom: 15px;
-  padding: 35px;
+  margin-bottom: 0.938rem;
+  padding: 1.563rem;
   color: #d0d4f5;
 
   border-radius: 10px;
@@ -55,20 +55,34 @@ export const PostItemWrapper = styled.article`
 `;
 
 export const PostItemDate = styled.p`
-  font-size: 16px;
-  padding-bottom: 15px;
+  font-size: 1rem;
+  padding-bottom: 0.938rem;
   text-align: left;
+
+  ${media.lessThan("large")`
+    font-size: 0.8rem;
+  `}
 `;
 
 export const PostItemTitle = styled.h1`
-  font-size: 26px;
-  margin-bottom: 15px;
+  font-size: 1.625rem;
+  margin-bottom: 0.938rem;
+
+  ${media.lessThan("large")`
+    font-size: 1.3rem;
+  `}
 `;
 
 export const PostItemDescription = styled.p`
-  font-size: 18px;
-  font-weight: 30px;
-  margin-bottom: 36px;
+  font-size: 1.125rem;
+  font-weight: 1.875rem;
+  margin-bottom: 2.25rem;
+
+  ${media.lessThan("large")`
+    font-size: 0.9rem;
+    margin-bottom: 1.3rem;
+    line-height: 1.2rem;
+  `}
 `;
 
 export const PostItemCategoryWrapper = styled.div`
@@ -79,11 +93,11 @@ export const PostItemCategoryWrapper = styled.div`
 
 export const PostItemLabel = styled(Label)`
   display: block;
-  width: 15px;
-  height: 15px;
+  width: 0.938rem;
+  height: 0.938rem;
 `;
 
 export const PostItemCategory = styled.p`
-  margin-left: 15px;
+  margin-left: 0.938rem;
   text-transform: lowercase;
 `;

@@ -13,7 +13,9 @@ const BlogList = props => {
   return (
     <Layout>
       <SEO title="Blog" />
-      <ButtonLink to="/">← Voltar para a home</ButtonLink>
+      <ButtonLink to="/" direction="left">
+        ← Voltar para a home
+      </ButtonLink>
       {list.map(
         ({
           node: {
@@ -32,7 +34,9 @@ const BlogList = props => {
           />
         )
       )}
-      <ButtonLink to="/">← Voltar para a home</ButtonLink>
+      <ButtonLink to="/" direction="left">
+        ← Voltar para a home
+      </ButtonLink>
     </Layout>
   );
 };

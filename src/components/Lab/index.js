@@ -8,7 +8,9 @@ const Lab = () => (
   <S.LabWrapper>
     <S.LabTitle>Lab</S.LabTitle>
     <S.LabDescription>Por enquanto a página Lab está desativada.</S.LabDescription>
-    <ButtonLink to="/">← Voltar para a home</ButtonLink>
+    <ButtonLink to="/" direction="left">
+      ← Voltar para a home
+    </ButtonLink>
   </S.LabWrapper>
 );
 

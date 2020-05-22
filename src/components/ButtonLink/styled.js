@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import media from "styled-media-query";
 
-import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 export const ButtonLinkWrapper = styled.section`
   padding-bottom: 1.9rem;
@@ -11,7 +11,7 @@ export const ButtonLinkWrapper = styled.section`
   `}
 `;
 
-export const ButtonLink = styled(Link)`
+export const ButtonLink = styled(AniLink)`
   color: #aa52cc;
   display: inline-block;
   font-size: 1.1rem;

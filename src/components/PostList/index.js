@@ -53,7 +53,9 @@ const PostList = () => {
           )
         )}
       </S.PostListNav>
-      <ButtonLink to="/blog/">Veja todos os artigos</ButtonLink>
+      <ButtonLink to="/blog/" direction="right">
+        Veja todos os artigos
+      </ButtonLink>
     </S.PostListWrapper>
   );
 };

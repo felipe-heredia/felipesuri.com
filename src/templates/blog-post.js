@@ -15,7 +15,9 @@ const BlogPost = ({ data }) => {
     <Layout>
       <SEO title={post.frontmatter.title} />
       <S.PostHeader>
-        <ButtonLink to="/blog">← Voltar para os artigos</ButtonLink>
+        <ButtonLink to="/blog" direction="left">
+          ← Voltar para os artigos
+        </ButtonLink>
         <S.PostDate>
           {post.frontmatter.date} • {post.timeToRead} min de leitura
         </S.PostDate>

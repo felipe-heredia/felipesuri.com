@@ -3,7 +3,9 @@ import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import SEO from "../components/seo";
+
 import PostItem from "../components/PostItem";
+import ButtonLink from "../components/ButtonLink";
 
 const BlogList = props => {
   const list = props.data.allMarkdownRemark.edges;
@@ -11,6 +13,7 @@ const BlogList = props => {
   return (
     <Layout>
       <SEO title="Blog" />
+      <ButtonLink to="/">← Voltar para a home</ButtonLink>
       {list.map(
         ({
           node: {
@@ -29,6 +32,7 @@ const BlogList = props => {
           />
         )
       )}
+      <ButtonLink to="/">← Voltar para a home</ButtonLink>
     </Layout>
   );
 };

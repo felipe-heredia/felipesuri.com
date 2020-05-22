@@ -19,18 +19,3 @@ export const LabDescription = styled.p`
   font-weight: 30px;
   margin-bottom: 36px;
 `;
-
-export const LabButton = styled(Link)`
-  cursor: pointer;
-  height: auto;
-  align-items: left;
-  text-decoration: none;
-  font-size: 1.2rem;
-
-  color: #fff;
-  transition: color 0.5s;
-
-  &:hover {
-    color: #aa52cc;
-  }
-`;

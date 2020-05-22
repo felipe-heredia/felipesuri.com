@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import * as S from "./styled";
 
 import PostItem from "../PostItem";
+import ButtonLink from "../ButtonLink";
 
 const PostList = () => {
   const { allMarkdownRemark } = useStaticQuery(graphql`
@@ -52,7 +53,7 @@ const PostList = () => {
           )
         )}
       </S.PostListNav>
-      <S.PostListButton to="/blog/">Veja todos os artigos</S.PostListButton>
+      <ButtonLink to="/blog/">Veja todos os artigos</ButtonLink>
     </S.PostListWrapper>
   );
 };

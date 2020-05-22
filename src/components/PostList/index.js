@@ -52,6 +52,7 @@ const PostList = () => {
           )
         )}
       </S.PostListNav>
+      <S.PostListButton to="/blog/">Veja todos os artigos</S.PostListButton>
     </S.PostListWrapper>
   );
 };

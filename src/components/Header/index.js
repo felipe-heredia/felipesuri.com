@@ -9,14 +9,10 @@ const Header = () => {
   return (
     <S.HeaderWrapper>
       <S.HeaderGroup>
-        <S.HeaderItem>
-          <Profile />
-        </S.HeaderItem>
+        <Profile />
       </S.HeaderGroup>
       <S.HeaderGroup>
-        <S.HeaderItem>
-          <MenuLinks />
-        </S.HeaderItem>
+        <MenuLinks />
       </S.HeaderGroup>
     </S.HeaderWrapper>
   );

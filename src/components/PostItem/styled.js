@@ -2,9 +2,9 @@ import styled from "styled-components";
 import media from "styled-media-query";
 
 import { Label } from "@styled-icons/material-outlined/Label";
-import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
-export const PostItem = styled(Link)`
+export const PostItem = styled(AniLink)`
   text-decoration: none;
 `;
 

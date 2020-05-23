@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import media from "styled-media-query";
 
-import { Link } from "gatsby";
-
 export const HeaderWrapper = styled.aside`
   text-transform: lowercase;
   background: #070708;
@@ -24,14 +22,6 @@ export const HeaderGroup = styled.div`
   ${media.lessThan("large")`
     margin: auto;
   `}
-`;
-
-export const HeaderItem = styled(Link)`
-  cursor: pointer;
-  display: block;
-  height: auto;
-  align-items: center;
-  text-decoration: none;
 `;
 
 export const HeaderSiteName = styled.h1`

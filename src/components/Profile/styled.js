@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 export const ProfileWrapper = styled.aside`
   text-transform: lowercase;
 `;
 
-export const ProfileItem = styled(Link)`
+export const ProfileItem = styled(AniLink)`
   cursor: pointer;
   display: block;
   height: auto;

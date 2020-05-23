@@ -11,6 +11,10 @@ const MenuLinks = () => (
         return (
           <S.MenuLinksItem key={i}>
             <S.MenuLinksLink
+              cover
+              direction="right"
+              duration={0.6}
+              bg="#373636"
               to={link.url}
               title={link.label}
               target={link.target}

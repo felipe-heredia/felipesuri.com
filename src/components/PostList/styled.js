@@ -3,10 +3,10 @@ import media from "styled-media-query";
 
 export const PostListWrapper = styled.section`
   display: block;
-  padding-bottom: 7rem;
+  padding-bottom: 0.9rem;
 
   ${media.lessThan("large")`
-    padding: 0 0.9rem 1.2rem; 
+    padding: 0 0.9rem 0.3rem; 
   `}
 `;
 

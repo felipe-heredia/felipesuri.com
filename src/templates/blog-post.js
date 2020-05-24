@@ -13,8 +13,11 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} description={post.frontmatter.description}
-				image={post.frontmatter.image} />
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        image={post.frontmatter.image}
+      />
       <S.PostHeader>
         <ButtonLink to="/blog" direction="left">
           ← Voltar para os artigos

@@ -42,6 +42,7 @@ exports.createPages = ({ graphql, actions }) => {
               description
               title
               category
+              image
             }
           }
         }

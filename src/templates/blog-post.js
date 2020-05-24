@@ -13,7 +13,8 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} />
+      <SEO title={post.frontmatter.title} description={post.frontmatter.description}
+				image={post.frontmatter.image} />
       <S.PostHeader>
         <ButtonLink to="/blog" direction="left">
           ← Voltar para os artigos
@@ -38,6 +39,7 @@ export const query = graphql`
         title
         description
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+        image
       }
       html
       timeToRead

@@ -67,7 +67,7 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           name: `twitter:image:src`,
-          conetnet: ogImage,
+          content: ogImage,
         },
         {
           name: `twitter:creator`,

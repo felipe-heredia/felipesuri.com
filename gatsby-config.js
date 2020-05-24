@@ -3,6 +3,7 @@ module.exports = {
     title: `FelipeSuri`,
     description: `Blog sobre programação de um iniciante na área.`,
     author: `@felipehofc`,
+    siteUrl: `https://felipesuri.com`
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -67,11 +68,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Felipe Suri`,
+        short_name: `felipesuri`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#373636`,
+        theme_color: `#373636`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },

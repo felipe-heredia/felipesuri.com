@@ -1,9 +1,11 @@
+require("dotenv").config();
+
 module.exports = {
   siteMetadata: {
     title: `FelipeSuri`,
     description: `Blog sobre programação de um iniciante na área.`,
     author: `@felipehofc`,
-    siteUrl: `https://felipesuri.com`
+    siteUrl: `https://felipesuri.com`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -63,6 +65,13 @@ module.exports = {
             "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload",
           ],
         },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        head: false,
       },
     },
     {

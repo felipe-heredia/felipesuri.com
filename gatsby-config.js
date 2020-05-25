@@ -38,20 +38,21 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-relative-images-v2",
+            resolve: `gatsby-remark-relative-images-v2`,
             options: {
-              name: "uploads",
+              name: `uploads`,
             },
           },
           {
-            resolve: "gatsby-remark-images",
+            resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 900,
               linkImagesToOriginal: false,
             },
           },
-          "gatsby-remark-lazy-load",
-          "gatsby-remark-prismjs",
+          `gatsby-remark-lazy-load`,
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-external-links`,
         ],
       },
     },

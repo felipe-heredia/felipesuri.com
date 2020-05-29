@@ -1,9 +1,13 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "felipesuri-vesta",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "My personal website using GatsbyJS",
+  "version": "1.0.0",
+  "author": {
+    "name": "Felipe Suri",
+    "email": "felipeheredia1234@gmail.com",
+    "url": "https://felipesuri.com"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "gatsby": "^2.21.21",
@@ -57,9 +61,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/felipesuri/felipesuri.com"
   }
 }

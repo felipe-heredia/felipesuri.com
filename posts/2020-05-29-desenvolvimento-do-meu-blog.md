@@ -1,8 +1,8 @@
 ---
-title: Desenvolvimento do meu blog.
+title: Como foi o desenvolvimento do meu blog
 description: Neste artigo, vou contar um pouco de como foi desenvolver o meu
-  blog utilizando GatsbyJS.
-date: 2020-05-29 11:33:56
+  blog utilizando GatsbyJS
+date: 2020-05-29T11:33:56.000Z
 image: assets/img/favicon.png
 category: desenvolvimento, projetos
 ---

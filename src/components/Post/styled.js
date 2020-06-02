@@ -4,10 +4,10 @@ import media from "styled-media-query";
 export const PostHeader = styled.header`
   color: #fff;
   margin: auto;
-  padding-top: 5rem;
+  padding-top: 3rem;
 
   ${media.lessThan("large")`
-    padding-top: 1.2rem;
+    padding-top: 0.7rem;
   `}
 `;
 
@@ -28,12 +28,14 @@ export const PostDescription = styled.h2`
 `;
 
 export const PostDate = styled.p`
+  padding-top: 1rem;
   font-size: 1.1rem;
   font-weight: 100;
 `;
 
 export const MainContent = styled.section`
   margin: auto;
+  margin-bottom: 2.7rem;
   max-width: 60rem;
   p,
   h1,

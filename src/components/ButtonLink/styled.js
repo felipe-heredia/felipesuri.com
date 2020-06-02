@@ -4,10 +4,10 @@ import media from "styled-media-query";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 export const ButtonLinkWrapper = styled.section`
-  padding-bottom: 1.9rem;
+  padding-bottom: 0.7rem;
 
   ${media.lessThan("large")`
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
   `}
 `;
 

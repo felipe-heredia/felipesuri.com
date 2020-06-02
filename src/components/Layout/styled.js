@@ -5,8 +5,7 @@ export const LayoutWrapper = styled.section``;
 
 export const LayoutMain = styled.main`
   min-height: 100vh;
-  margin: 5rem auto 2.2rem;
-  padding-bottom: 1rem;
+  margin: 5rem auto auto;
   max-width: 60rem;
 
   ${media.lessThan("large")`

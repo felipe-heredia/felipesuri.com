@@ -31,8 +31,6 @@ function SEO({ description, lang, meta, title, image }) {
   const cover = "/assets/img/cover.png";
   const ogImage = `${url}${image || cover}`;
 
-  console.log(meta);
-
   return (
     <Helmet
       htmlAttributes={{

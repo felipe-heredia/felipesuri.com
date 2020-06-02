@@ -18,6 +18,7 @@ const MenuLinks = () => (
               to={link.url}
               title={link.label}
               target={link.target}
+              activeClassName="active"
               rel="noopener noreferrer"
             >
               {link.label}

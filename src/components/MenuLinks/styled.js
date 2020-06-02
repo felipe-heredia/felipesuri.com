@@ -26,4 +26,8 @@ export const MenuLinksLink = styled(AniLink)`
   &:hover {
     color: #aa52cc;
   }
+
+  &.active {
+    color: #aa52cc;
+  }
 `;

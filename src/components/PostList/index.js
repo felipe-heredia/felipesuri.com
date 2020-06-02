@@ -43,6 +43,7 @@ const PostList = () => {
             },
           }) => (
             <PostItem
+              key={slug}
               slug={slug}
               category={category}
               date={date}

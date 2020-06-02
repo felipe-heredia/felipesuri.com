@@ -6,7 +6,7 @@ export const PostListWrapper = styled.section`
   padding-bottom: 0.9rem;
 
   ${media.lessThan("large")`
-    padding: 0 0.9rem 0.3rem; 
+    padding: 0 0.9rem auto; 
   `}
 `;
 

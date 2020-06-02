@@ -9,6 +9,6 @@ export const LayoutMain = styled.main`
   max-width: 60rem;
 
   ${media.lessThan("large")`
-    margin: 5rem 0.9rem 0;
+    margin: 5rem 0.9rem 2.5rem;
   `}
 `;

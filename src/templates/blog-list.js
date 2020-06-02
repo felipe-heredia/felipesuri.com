@@ -34,9 +34,6 @@ const BlogList = props => {
           />
         )
       )}
-      <ButtonLink to="/" direction="left">
-        ← Voltar para a home
-      </ButtonLink>
     </Layout>
   );
 };

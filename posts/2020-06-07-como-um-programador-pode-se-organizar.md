@@ -57,14 +57,9 @@ Pode ser que durante a produção você mude alguma tarefa de posição ou adici
 
 ### Listas menores
 
-Dentro das listas maiores com cada funcionalidade ou página, é interressante que você divida ela em outras pequenas tarefas, por exemplo:
+Dentro das listas maiores com cada funcionalidade ou página, é interressante que você divida ela em outras pequenas tarefas.
 
-* [ ] Página Home
-* * [x] Criar Header
-* * [ ] Criar Conteúdo
-* * [ ] Criar Footer
-
-A cada funcionalidade criada, por exemplo o Header, você iria marcar e ao ver que faltam apenas duas funcionalidades seria gerada uma dopamina “Opa, falta apenas mais uma funcionalidade”.
+A cada funcionalidade criada, você iria marcar e ao ver que faltam apenas duas funcionalidades seria gerada uma dopamina “Opa, falta apenas mais uma funcionalidade”.
 
 ## Conslusão
 

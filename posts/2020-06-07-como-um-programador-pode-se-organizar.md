@@ -2,7 +2,7 @@
 title: Como um programador pode se organizar
 description: Antes de partirmos para o código em nossos artigos, vamos nos
   organizar da melhor forma possível
-date: 2020-06-07T09:35:22.000Z
+date: 2020-06-08 06:59:02
 image: assets/img/desert.jpg
 category: organização, projetos
 ---

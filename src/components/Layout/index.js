@@ -8,6 +8,7 @@ import GlobalSyles from "../../styles/global";
 
 import Header from "../Header";
 import BottomBar from "../BottomBar";
+import Footer from "../Footer";
 
 const Layout = ({ children }) => (
   <S.LayoutWrapper>
@@ -15,10 +16,13 @@ const Layout = ({ children }) => (
     <TransitionPortal level="top">
       <Header />
     </TransitionPortal>
+    <S.LayoutMain>
+      {children}
+      <Footer />
+    </S.LayoutMain>
     <TransitionPortal level="bottom">
       <BottomBar />
     </TransitionPortal>
-    <S.LayoutMain>{children}</S.LayoutMain>
   </S.LayoutWrapper>
 );
 

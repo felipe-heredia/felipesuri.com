@@ -22,6 +22,7 @@ export const MenuLinksLink = styled(AniLink)`
   color: #f2f2f2;
   text-decoration: none;
   transition: color 0.5s;
+  font-family: "Noto Sans", sans-serif;
 
   &:hover {
     color: #aa52cc;

@@ -19,6 +19,7 @@ export const SiteName = styled.h1`
   display: block;
   color: #fff;
   transition: color 1s;
+  font-family: "Berkshire Swash", cursive;
 
   &:hover {
     color: #aa52cc;

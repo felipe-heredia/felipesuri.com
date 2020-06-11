@@ -58,6 +58,7 @@ export const PostItemDate = styled.p`
   font-size: 1rem;
   padding-bottom: 0.938rem;
   text-align: left;
+  font-family: "Open Sans", sans-serif;
 
   ${media.lessThan("large")`
     font-size: 0.8rem;
@@ -67,6 +68,8 @@ export const PostItemDate = styled.p`
 export const PostItemTitle = styled.h1`
   font-size: 1.625rem;
   margin-bottom: 0.938rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
 
   ${media.lessThan("large")`
     font-size: 1.3rem;
@@ -77,6 +80,7 @@ export const PostItemDescription = styled.p`
   font-size: 1.125rem;
   font-weight: 1.875rem;
   margin-bottom: 2.25rem;
+  font-family: "Noto Sans", sans-serif;
 
   ${media.lessThan("large")`
     font-size: 0.9rem;
@@ -100,4 +104,5 @@ export const PostItemLabel = styled(Label)`
 export const PostItemCategory = styled.p`
   margin-left: 0.938rem;
   text-transform: lowercase;
+  font-family: "Roboto", sans-serif;
 `;

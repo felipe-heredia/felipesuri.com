@@ -6,6 +6,7 @@ import SEO from "../components/seo";
 
 import PostItem from "../components/PostItem";
 import ButtonLink from "../components/ButtonLink";
+import Search from "../components/Search";
 
 const BlogList = props => {
   const list = props.data.allMarkdownRemark.edges;
@@ -13,6 +14,7 @@ const BlogList = props => {
   return (
     <Layout>
       <SEO title="Blog" />
+      <Search />
       <ButtonLink to="/" direction="left">
         ← Voltar para a home
       </ButtonLink>

@@ -14,6 +14,7 @@ export const AuthorWrapper = styled.article`
 `;
 
 export const AuthorTitle = styled.h1`
+  font-family: Roboto, sans-serif;
   text-align: left;
   font-size: 30px;
   font-weight: bold;
@@ -25,6 +26,7 @@ export const AuthorTitle = styled.h1`
 export const AuthorContent = styled.p`
   text-align: justify;
   font-size: 24px;
+  font-family: "Open Sans", sans-serif;
   line-height: 34px;
 
   padding-bottom: 14px;

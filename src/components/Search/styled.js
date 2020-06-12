@@ -24,8 +24,8 @@ export const SearchWrapper = styled.section`
 
   .ais-SearchBox-input {
     background: none;
-    border: none;
     border: 1px solid #000;
+    border-radius: 10px;
     color: #8899a6;
     display: flex;
     font-size: 1.6rem;

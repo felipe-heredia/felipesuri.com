@@ -3,12 +3,11 @@ import media from "styled-media-query";
 
 export const LabWrapper = styled.article`
   margin-bottom: 1.2rem;
-  padding: 2.1rem;
+  padding: 0.7rem 2.1rem 0;
   color: #fff;
-  height: 100%;
 
   ${media.lessThan("large")`
-    padding: 1.5rem;
+    padding: 0 1.5rem 0;
   `}
 `;
 

@@ -4,11 +4,11 @@ import media from "styled-media-query";
 export const LayoutWrapper = styled.section``;
 
 export const LayoutMain = styled.main`
-  min-height: 100vh;
   margin: 5rem auto auto;
+  padding-bottom: 0;
   max-width: 60rem;
 
   ${media.lessThan("large")`
-    margin: 5rem 0.9rem 2.5rem;
+    margin: 4.6rem 0.9rem 0;
   `}
 `;

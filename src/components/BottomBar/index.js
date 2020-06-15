@@ -2,7 +2,7 @@ import React from "react";
 
 import * as S from "./styled";
 
-import SocialLinks from "../SocialLinks";
+import SocialLinks from "components/SocialLinks";
 
 const BottomBar = () => (
   <S.BottomBarWrapper>

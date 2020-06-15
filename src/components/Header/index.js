@@ -2,8 +2,8 @@ import React from "react";
 
 import * as S from "./styled";
 
-import Profile from "../Profile";
-import MenuLinks from "../MenuLinks";
+import Profile from "components/Profile";
+import MenuLinks from "components/MenuLinks";
 
 const Header = () => {
   return (

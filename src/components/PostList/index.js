@@ -3,8 +3,8 @@ import { useStaticQuery, graphql } from "gatsby";
 
 import * as S from "./styled";
 
-import PostItem from "../PostItem";
-import ButtonLink from "../ButtonLink";
+import PostItem from "components/PostItem";
+import ButtonLink from "components/ButtonLink";
 
 const PostList = () => {
   const { allMarkdownRemark } = useStaticQuery(graphql`

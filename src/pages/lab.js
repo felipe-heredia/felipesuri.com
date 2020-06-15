@@ -1,10 +1,10 @@
 import React from "react";
 
-import Layout from "../components/Layout";
-import SEO from "../components/seo";
-import Lab from "../components/Lab";
+import Layout from "components/Layout";
+import SEO from "components/seo";
+import Lab from "components/Lab";
 
-import Warning from "../components/Warning";
+import Warning from "components/Warning";
 
 const LabPage = () => (
   <>

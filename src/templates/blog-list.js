@@ -1,10 +1,10 @@
 import React from "react";
 
-import Layout from "../components/Layout";
-import SEO from "../components/seo";
+import Layout from "components/Layout";
+import SEO from "components/seo";
 
-import ButtonLink from "../components/ButtonLink";
-import Search from "../components/Search";
+import ButtonLink from "components/ButtonLink";
+import Search from "components/Search";
 
 const BlogList = props => (
   <Layout>

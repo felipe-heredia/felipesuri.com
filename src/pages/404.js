@@ -1,12 +1,12 @@
 import React from "react";
 
-import Layout from "../components/Layout";
-import SEO from "../components/seo";
+import Layout from "components/Layout";
+import SEO from "components/seo";
 
-import PostList from "../components/PostList";
-import ButtonLink from "../components/ButtonLink";
+import PostList from "components/PostList";
+import ButtonLink from "components/ButtonLink";
 
-import * as S from "../components/NotFound/styled.js";
+import * as S from "components/NotFound/styled.js";
 
 const NotFoundPage = () => (
   <Layout>

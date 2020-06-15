@@ -1,12 +1,12 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-import Layout from "../components/Layout";
-import SEO from "../components/seo";
+import Layout from "components/Layout";
+import SEO from "components/seo";
 
-import ButtonLink from "../components/ButtonLink";
+import ButtonLink from "components/ButtonLink";
 
-import * as S from "../components/Post/styled";
+import * as S from "components/Post/styled";
 
 const BlogPost = ({ data }) => {
   const post = data.markdownRemark;

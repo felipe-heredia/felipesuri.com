@@ -2,7 +2,7 @@ import React from "react";
 
 import * as S from "./styled";
 
-import ButtonLink from "../ButtonLink";
+import ButtonLink from "components/ButtonLink";
 
 const Lab = () => (
   <S.LabWrapper>

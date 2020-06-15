@@ -4,11 +4,11 @@ import PropTypes from "prop-types";
 import { TransitionPortal } from "gatsby-plugin-transition-link";
 
 import * as S from "./styled";
-import GlobalSyles from "../../styles/global";
+import GlobalSyles from "styles/global";
 
-import Header from "../Header";
-import BottomBar from "../BottomBar";
-import Footer from "../Footer";
+import Header from "components/Header";
+import BottomBar from "components/BottomBar";
+import Footer from "components/Footer";
 
 const Layout = ({ children }) => (
   <S.LayoutWrapper>

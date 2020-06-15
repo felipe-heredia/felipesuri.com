@@ -1,10 +1,10 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-import Layout from "../components/Layout";
-import SEO from "../components/seo";
+import Layout from "components/Layout";
+import SEO from "components/seo";
 
-import * as S from "../components/Policies/styled";
+import * as S from "components/Policies/styled";
 
 const Policies = () => (
   <Layout>

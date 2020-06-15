@@ -13,6 +13,7 @@ module.exports = {
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-resolve-src`,
     // Need to be the first to work with gatsby-remark-images
     {
       resolve: `gatsby-source-filesystem`,

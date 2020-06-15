@@ -1,7 +1,7 @@
 ---
 title: O que é busca binária?
 description: Explicando um pouco sobre busca binária
-date: 2020-06-15 10:07:55
+date: 2020-06-15T10:07:55.000Z
 image: assets/img/favicon.png
 category: projetos, buscas
 ---
@@ -18,11 +18,11 @@ Para a busca binária funcionar, __precisamos ter um Array ordenado__, pois, dep
 
 ```js
 
-const elements = [1, 3, 77, 5, 9, 10]
+const elements = [1, 77, 3, 5, 9, 10]
 const target = 9
 ```
 
-Neste exemplo teríamos um erro, pois o objeto do meio seria o 77 que é maior que o `target` que é 9, portanto a nossa função faria uma busca na esquerda porém não encontraria já que o target 9 está depois do 77.
+Neste exemplo teríamos um erro, pois o objeto do meio seria o 77 que é maior que o `target` que é 9, portanto a nossa função faria uma busca na direita porém não encontraria já que o target 9 está depois do 77.
 
 ```js
 const elements = [1, 2, 3, 4, 5]

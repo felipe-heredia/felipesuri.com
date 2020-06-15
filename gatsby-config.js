@@ -55,6 +55,13 @@ module.exports = {
           `gatsby-remark-lazy-load`,
           `gatsby-remark-prismjs`,
           `gatsby-remark-external-links`,
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              icon: false,
+              removeAccents: true,
+            },
+          },
         ],
       },
     },

@@ -6,21 +6,28 @@ date: 2020-06-22T11:33:53.000Z
 image: assets/img/favicon.png
 category: projetos, mentalidade
 ---
-Olá, pessoal vamos falar hoje sobre resolução de problemas de Hardware e Software.
+[1]: https://pt-br.reactjs.org/
+[2]: https://reactnative.dev/
+[3]: http://rocketseat.com.br/
+[4]: https://linuxmint.com
+[5]: https://developer.android.com/studio
+[6]: https://expo.io/
+
+Olá, pessoal hoje vamos falar sobre resolução de problemas em Hardware e Software.
 
 ## Sobre Hardware
 
-A máquina que eu utilizo para programar é bem velhinha, deve chegar a ter alguns 10 anos de uso, o processador é de 2007. Durante muito tempo acabei me limitando de programar em ReactJS e ReactNative por __pensar que a máquina não aguentaria__.
+A máquina que eu utilizo para programar é bem velhinha, deve chegar a ter alguns 10 anos de uso, o processador é de 2007. Durante muito tempo acabei me limitando de programar em [ReactJS][1] e [ReactNative][2] por __pensar que a máquina não aguentaria__.
 
 Eu apenas pensava, nunca realmente tentei, o medo da máquina nunca mais voltar a vida era maior. Esse medo era gerado pois eu utilizava Windows (nada contra), que demorava cerca de 4 minutos para ligar, então a minha mente se limitava: _“Se demora 4 minutos para iniciar, imagina em um projeto ReactNative”_.
 
-Participei da oitava semana OmniStack da Rocketseat, consegui desenvolver o projeto em ReactJS, mas decidi nem tentar o projeto em Nativo.
+Participei da oitava semana OmniStack da [Rocketseat][3], consegui desenvolver o projeto em ReactJS, mas decidi nem tentar o projeto em Nativo.
 
-O tempo foi se passando até que fui conhecendo mais sobre computação e descobri nosso querido Linux, percebi que eram leves e que salvavam máquinas antigas, decidi testar o Linux Mint (o qual utilizo até hoje), isso me auxiliou a perder o medo de meu computador não conseguir rodar certos Softwares.
+O tempo foi se passando até que fui conhecendo mais sobre computação e descobri nosso querido Linux, percebi que eram leves e que salvavam máquinas antigas, decidi testar o [Linux Mint][4] (o qual utilizo até hoje), isso me auxiliou a perder o medo de meu computador não conseguir rodar certos Software's.
 
-Então na próxima Omnistack, decidi fazer o projeto em Native, e consegui, demorei? Sim, mas consegui, utilizando Expo. Tentei instalar alguns emuladores e eles realmente não rodavam, não conseguia nem instalar e por mais alguns meses fiquei com medo de sair do Expo, me limitei a utilizar apenas ele e nada mais.
+Então na próxima Omnistack, decidi fazer o projeto em Native, e consegui, demorei? Sim, mas consegui, utilizando [Expo][6]. Tentei instalar alguns emuladores e eles realmente não rodavam, não conseguia nem instalar e por mais alguns meses fiquei com medo de sair do Expo, me limitei a utilizar apenas ele e nada mais.
 
-Participando do Bootcamp Gostack, fui “obrigado” a utilizar ReactNative (sem o Expo), então fiquei horas tentando instalar o AndroidSDK (entraremos com mais detalhes no próximo tópico), mesmo com a demora de algumas horas eu consegui realmente rodar o aplicativo no meu celular sem utilizar Expo e sim depurando através de um USB.
+Participando do Bootcamp Gostack (um curso da Rocketseat), fui “obrigado” a utilizar ReactNative (sem o Expo), então fiquei horas tentando instalar o [AndroidSDK][5] (entraremos com mais detalhes no próximo tópico), mesmo com a demora de algumas horas eu consegui realmente rodar o aplicativo no meu celular sem utilizar Expo e sim depurando através de um USB.
 
 ## Sobre Software
 

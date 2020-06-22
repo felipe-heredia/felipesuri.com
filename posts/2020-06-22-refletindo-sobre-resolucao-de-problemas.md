@@ -60,4 +60,4 @@ Esses foram alguns aprendizados que demorei a ter, algumas coisas você só apre
 
 Por essa semana é isso pessoal. Até a próxima.
 
-Por FelipeSuri :penguin: com :heart:
+Por FelipeSuri 🐧 com 💜.

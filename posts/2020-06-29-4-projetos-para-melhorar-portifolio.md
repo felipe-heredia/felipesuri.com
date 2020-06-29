@@ -1,7 +1,7 @@
 ---
-title: 4-projetos-para-melhorar-portifolio
+title: 4 Projetos para aprender a programar ou melhorar seu portfólio
 description: 4 projetos para fazer por conta própria e desafiar a si mesmo
-date: 2020-06-29 12:20:48
+date: 2020-06-29 12:46:49
 image: assets/img/desert.jpg
 category: projetos, portifolio
 ---

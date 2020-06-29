@@ -1,7 +1,7 @@
 ---
 title: 4 Projetos para aprender a programar ou melhorar seu portfólio
 description: 4 projetos para fazer por conta própria e desafiar a si mesmo
-date: 2020-06-29 12:46:49
+date: 2020-06-29T12:46:49.000Z
 image: assets/img/desert.jpg
 category: projetos, portifolio
 ---
@@ -30,15 +30,15 @@ Desta forma, o usuário poderá criar, editar e apagar notas que ficarão salvas
 
 ### Funcionalidades
 
-- [ ] O usuário pode criar notas
-- [ ] O usuário pode editar notas
-- [ ] O usuário pode apagar notas
-- [ ] Notas ficarão salvas, assim, quando o usuário voltar ao site, suas notas continuarão lá.
+- O usuário pode criar notas
+- O usuário pode editar notas
+-  O usuário pode apagar notas
+- Notas ficarão salvas, assim, quando o usuário voltar ao site, suas notas continuarão lá.
 
 ### Funcionalidades mais complexas
 
-- [ ] O usuário pode fazer anotações em Markdown, ao salvar será convertido para HTML.
-- [ ] O usuário poderá ver a data que criou ou editou pela última vez a sua nota.
+- O usuário pode fazer anotações em Markdown, ao salvar será convertido para HTML.
+-  O usuário poderá ver a data que criou ou editou pela última vez a sua nota.
 
 ## Gerador de lorem ipsum
 
@@ -50,8 +50,8 @@ Utilizando a biblioteca [lorem-ipsum][5], você pode gerar as frases escolhendo 
 
 ### Funcionalidades
 
-- [ ] O usuário poderá escolher quantos parágrafos irá conter  sem texto gerado.
-- [ ] O usuário poderá ver e copiar os seus parágrafos gerados.
+- O usuário poderá escolher quantos parágrafos irá conter  sem texto gerado.
+- O usuário poderá ver e copiar os seus parágrafos gerados.
 
 ## Clones de aplicativos existentes
 
@@ -69,14 +69,16 @@ Além de você poder utilizar um projeto seu para criar suas senhas, que tal out
 
 ### Funcionalidades
 
-- [ ] Usuário pode selecionar o tamanho da senha gerada.
-- [ ] Usuário pode selecionar regras para a senha gerada, como: Incluir letras maiúsculas, incluir letras minúsculas, incluir números, incluir símbolos.
-- [ ] Ao clicar em “Gerar senha” o usuário poderá ver a senha gerada e poderá copiá- la.
+- Usuário pode selecionar o tamanho da senha gerada.
+- Usuário pode selecionar regras para a senha gerada, como: Incluir letras maiúsculas, incluir letras minúsculas, incluir números, incluir símbolos.
+- Ao clicar em “Gerar senha” o usuário poderá ver a senha gerada e poderá copiá- la.
 
 ### Funcionalidades mais complexas
 
-- [ ] O usuário poderá ver se a senha gerada é forte ou fraca.
+- O usuário poderá ver se a senha gerada é forte ou fraca.
 
 ---
 
-Enfim pessoal, por essa semana é só, estão listados projetos bem legais para treinar sua mente e melhorar seu portfólio,
+Enfim pessoal, por essa semana é só, estão listados projetos bem legais para treinar sua mente e melhorar seu portfólio.
+
+Por FelipeSuri 🐧 com 💜.

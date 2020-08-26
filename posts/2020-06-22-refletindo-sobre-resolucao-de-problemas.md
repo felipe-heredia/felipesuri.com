@@ -2,8 +2,8 @@
 title: Refletindo sobre resolução de problemas
 description: Hoje vamos falar um pouco sobre problemas que podemos nos deparar
   no nosso dia-a-dia.
-date: 2020-06-22 01:01:17
-image: assets/img/favicon.png
+date: 2020-06-22T01:01:17.000Z
+image: ""
 category: projetos, mentalidade
 ---
 [1]: https://pt-br.reactjs.org/

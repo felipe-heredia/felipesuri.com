@@ -20,6 +20,6 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss" }
-      - { label: "image", name: "image", widget: "image" }
+      - { label: "image", name: "image", widget: "image", required: false }
       - { label: "Category", name: "category", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }

@@ -3,7 +3,7 @@ title: Como foi o desenvolvimento do meu blog
 description: Neste artigo, vou contar um pouco de como foi desenvolver o meu
   blog utilizando GatsbyJS
 date: 2020-05-29T11:33:56.000Z
-image: assets/img/favicon.png
+image: ""
 category: desenvolvimento, projetos
 ---
 [1]: https://br.wordpress.com/ "Site do WordPress BR"

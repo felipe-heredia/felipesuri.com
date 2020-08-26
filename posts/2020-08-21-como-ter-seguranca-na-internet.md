@@ -2,12 +2,12 @@
 title: Em busca de segurança e anonimidade na web
 description: Já pesquisou aquele produto na web e segundos depois recebeu uma
   enxurada de anúncios? Vamos resolver isso?
-date: 2020-08-21T08:29:07.000Z
-image: assets/img/favicon.png
+date: 2020-08-26 06:54:32
+image: assets/img/privacity.png
 category: privacidade
 ---
-[1]: https://netmarketshare.com/operating-system-market-share.aspx
-[2]: http://linuxmint.com
+1: [https://netmarketshare.com/operating-system-marketshare.aspx]
+2: [http://linuxmint.com]
 
 Há algum tempo eu venho em busca de privacidade e anonimidade na internet, está ai uma das coisas mais difíceis de se fazer nos dias de hoje, ter anonimidade.
 
@@ -15,11 +15,11 @@ Há algum tempo eu venho em busca de privacidade e anonimidade na internet, est�
 
 ## Começando pelo sistema operacional
 
-É claro que esta dica não será para todas as pessoas, mas o mundo Linux é um mundo muito mais distante dos hackers (não pense que é impossível pegar um Malware usando Linux), no mundo Windows é onde estão [87% dos usuários de computadores][1], ou seja, a grande massa está ali, pessoas que não entendem muito de internet e computadores. Estes são presas fáceis diante dos hackers. 
+É claro que esta dica não será para todas as pessoas, mas o mundo Linux é um mundo muito mais distante dos hackers (não pense que é impossível pegar um Malware usando Linux), no mundo Windows é onde estão [87% dos usuários de computadores](1), ou seja, a grande massa está ali, pessoas que não entendem muito de internet e computadores. Estes são presas fáceis diante dos hackers. 
 
 Nesta mesma pesquisa mostra que apenas ~3% dos usuários usam Linux, ou seja, mesmo que os hackers infectem vários usuários, será uma massa pequena comprada com o Windows, logo eles não gostam tanto de procurar falhas e usufruir delas no mundo Linux.
 
-Diferente do que muitas pessoas pensam, o mundo Linux não é um bicho de sete cabeças e inclusive existem distribuições que se aparentam muito com o Windows (que é o caso do [LinuxMint][2].
+Diferente do que muitas pessoas pensam, o mundo Linux não é um bicho de sete cabeças e inclusive existem distribuições que se aparentam muito com o Windows (que é o caso do [LinuxMint](2).
 
 Outro ponto crucial é o Linux ser de código aberto, vários desenvolvedores do mundo todo estão com olhos atentos a todo momento para o código Linux e falhas são resolvidas de forma muito mais rápida frente ao Windows, que só estão desenvolvedores da própria Microsoft.
 

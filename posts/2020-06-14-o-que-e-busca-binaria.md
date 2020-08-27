@@ -1,8 +1,8 @@
 ---
 title: O que é busca binária?
 description: Explicando um pouco sobre busca binária
-date: 2020-06-15 10:28:06
-image: assets/img/favicon.png
+date: 2020-06-15T10:28:06.000Z
+image: ""
 category: projetos, buscas
 ---
 [1]: https://github.com/felipesuri/binary-search

@@ -1,14 +1,14 @@
 backend:
   name: github
   repo: felipesuri/felipesuri.com
-  branch: master
+  branch: main
   site_domain: felipesuri.com
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
 public_folder: "assets/img"
 logo_url: https://felipesuri.com/assets/img/favicon.png
-locale: "pt-BR"
+locale: "pt_BR"
 
 collections:
   - name: "artigos" # Used in routes, e.g., /admin/collections/blog

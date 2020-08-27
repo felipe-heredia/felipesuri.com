@@ -2,8 +2,8 @@
 title: Como um programador pode se organizar
 description: Antes de partirmos para o código em nossos artigos, vamos nos
   organizar da melhor forma possível
-date: 2020-06-08 06:59:02
-image: assets/img/desert.jpg
+date: 2020-06-08T06:59:02.000Z
+image: ""
 category: organização, projetos
 ---
 [1]: https://trello.com/

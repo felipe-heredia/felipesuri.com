@@ -2,7 +2,7 @@
 title: 4 Projetos para aprender a programar ou melhorar seu portfólio
 description: 4 projetos para fazer por conta própria e desafiar a si mesmo
 date: 2020-06-29T12:46:49.000Z
-image: assets/img/desert.jpg
+image: ""
 category: projetos, portifolio
 ---
 [1]: https://github.com/

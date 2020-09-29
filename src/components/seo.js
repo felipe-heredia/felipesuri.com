@@ -24,13 +24,13 @@ function SEO({ description, lang, meta, title, image }) {
   const cover = "assets/img/facadeImage.png";
 
   let ogImage;
-  const thumbGeneratorUrl = process.env.THUMB_GENERATOR_URL;
+  const thumbGeneratorUrl = process.env.GATSBY_THUMB_GENERATOR_URL;
 
   if (!image) {
     const newTitle = title.split(" ").join("%20");
     ogImage = `${thumbGeneratorUrl}/api/thumbnail.png?title=${newTitle}`;
   } else {
-    ogImage = `${url}/${image || cover}`;
+    ogImage = `${url}/${image}`;
   }
 
   return (

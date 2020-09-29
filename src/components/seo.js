@@ -26,7 +26,7 @@ function SEO({ description, lang, meta, title, image }) {
 
   let ogImage;
 
-  if (!image) {
+  if (image === "") {
     const newTitle = title.split(" ").join("%20");
     ogImage = `${thumbGeneratorUrl}/api/thumbnail.png?title=${newTitle}`;
   } else {

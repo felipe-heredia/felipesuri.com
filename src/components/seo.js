@@ -22,7 +22,16 @@ function SEO({ description, lang, meta, title, image }) {
   const metaDescription = description || site.siteMetadata.description;
   const url = site.siteMetadata.siteUrl;
   const cover = "assets/img/facadeImage.png";
-  const ogImage = `${url}/${image || cover}`;
+
+  let ogImage;
+  const thumbGeneratorUrl = process.env.THUMB_GENERATOR_URL;
+
+  if (!image) {
+    const newTitle = title.split(" ").join("%20");
+    ogImage = `${thumbGeneratorUrl}/api/thumbnail.png?title=${newTitle}`;
+  } else {
+    ogImage = `${url}/${image || cover}`;
+  }
 
   return (
     <Helmet
@@ -76,12 +85,6 @@ function SEO({ description, lang, meta, title, image }) {
     />
   );
 }
-
-SEO.defaultProps = {
-  lang: `pt-BR`,
-  meta: [],
-  description: ``,
-};
 
 SEO.propTypes = {
   description: PropTypes.string,

@@ -8,6 +8,7 @@ module.exports = {
     description: `Blog sobre programação de um iniciante na área.`,
     author: `@_felipesuri`,
     siteUrl: `https://felipesuri.com`,
+    thumbGeneratorUrl: process.env.GATSBY_THUMB_GENERATOR_URL,
   },
   plugins: [
     `gatsby-plugin-transition-link`,

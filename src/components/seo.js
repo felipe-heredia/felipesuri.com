@@ -13,6 +13,7 @@ function SEO({ description, lang, meta, title, image }) {
             description
             author
             siteUrl
+            thumbGeneratorUrl
           }
         }
       }
@@ -21,10 +22,9 @@ function SEO({ description, lang, meta, title, image }) {
 
   const metaDescription = description || site.siteMetadata.description;
   const url = site.siteMetadata.siteUrl;
-  const cover = "assets/img/facadeImage.png";
+  const thumbGeneratorUrl = site.siteMetadata.thumbGeneratorUrl;
 
   let ogImage;
-  const thumbGeneratorUrl = process.env.GATSBY_THUMB_GENERATOR_URL;
 
   if (!image) {
     const newTitle = title.split(" ").join("%20");

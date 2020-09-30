@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 
-function SEO({ description, lang, meta, title, image }) {
+function SEO({ description, lang, meta, title, image, noCreateThumb }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -23,14 +23,13 @@ function SEO({ description, lang, meta, title, image }) {
   const metaDescription = description || site.siteMetadata.description;
   const url = site.siteMetadata.siteUrl;
   const thumbGeneratorUrl = site.siteMetadata.thumbGeneratorUrl;
+  const cover = "assets/img/facadeImage.png";
 
-  let ogImage;
+  let ogImage = `${url}/${image || cover}`;
 
-  if (image === "") {
+  if (!image && !!noCreateThumb) {
     const newTitle = title.split(" ").join("%20");
     ogImage = `${thumbGeneratorUrl}/api/thumbnail.png?title=${newTitle}`;
-  } else {
-    ogImage = `${url}/${image}`;
   }
 
   return (
@@ -86,11 +85,18 @@ function SEO({ description, lang, meta, title, image }) {
   );
 }
 
+SEO.defaultProps = {
+  lang: `pt-BR`,
+  meta: [],
+  description: ``,
+};
+
 SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  noCreateThumb: PropTypes.bool,
 };
 
 export default SEO;

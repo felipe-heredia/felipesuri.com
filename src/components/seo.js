@@ -27,7 +27,7 @@ function SEO({ description, lang, meta, title, image, noCreateThumb }) {
 
   let ogImage = `${url}/${image || cover}`;
 
-  if (!image && !!noCreateThumb) {
+  if (!image && !noCreateThumb) {
     const newTitle = title.split(" ").join("%20");
     ogImage = `${thumbGeneratorUrl}/api/thumbnail.png?title=${newTitle}`;
   }

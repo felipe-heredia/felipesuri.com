@@ -5,7 +5,7 @@ const queries = require("./src/utils/algolia-queries");
 module.exports = {
   siteMetadata: {
     title: `FelipeSuri`,
-    description: `Blog sobre programação de um iniciante na área.`,
+    description: `Meu blog feito para conversar sobre programação e engenharia de software.`,
     author: `@_felipesuri`,
     siteUrl: `https://felipesuri.com`,
     thumbGeneratorUrl: process.env.GATSBY_THUMB_GENERATOR_URL,
@@ -100,10 +100,10 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Felipe Suri`,
-        short_name: `felipesuri`,
+        short_name: `Felipe Suri`,
         start_url: `/`,
         background_color: `#373636`,
-        theme_color: `#373636`,
+        theme_color: `#000`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`,
       },

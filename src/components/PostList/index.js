@@ -7,8 +7,13 @@ import PostItem from "components/PostItem";
 import ButtonLink from "components/ButtonLink";
 
 const PostList = () => {
-  const { allMarkdownRemark } = useStaticQuery(graphql`
+  const { allMarkdownRemark, site } = useStaticQuery(graphql`
     query PostList {
+      site {
+        siteMetadata {
+          thumbGeneratorUrl
+        }
+      }
       allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }, limit: 3) {
         edges {
           node {
@@ -17,6 +22,7 @@ const PostList = () => {
               date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
               title
               description
+              
             }
             timeToRead
             fields {
@@ -29,6 +35,7 @@ const PostList = () => {
   `);
 
   const postList = allMarkdownRemark.edges;
+  const thumbGeneratorUrl = site.siteMetadata.thumbGeneratorUrl
 
   return (
     <S.PostListWrapper>
@@ -41,7 +48,8 @@ const PostList = () => {
               timeToRead,
               fields: { slug },
             },
-          }) => (
+          }) => 
+          (
             <PostItem
               key={slug}
               slug={slug}
@@ -50,6 +58,7 @@ const PostList = () => {
               timeToRead={timeToRead}
               title={title}
               description={description}
+              thumbUrl={`${thumbGeneratorUrl}/api/thumbnail.png?title=${title}`}
             />
           )
         )}

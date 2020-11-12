@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import * as S from "./styled";
 
-const PostItem = ({ slug, category, date, timeToRead, title, description }) => (
+const PostItem = ({ slug, category, date, timeToRead, title, description, thumbUrl }) => (
   <S.PostItem
     cover
     direction="right"
@@ -14,6 +14,7 @@ const PostItem = ({ slug, category, date, timeToRead, title, description }) => (
     rel="noopener noreferrer"
   >
     <S.PostItemWrapper>
+      <img src={thumbUrl} alt={slug} />
       <S.PostItemDate>
         {date} • {timeToRead} min de leitura
       </S.PostItemDate>

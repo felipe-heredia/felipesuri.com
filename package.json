@@ -16,11 +16,16 @@
   "dependencies": {
     "@gridsome/source-graphql": "^0.1.0",
     "buefy": "^0.9.8",
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-sass-resources-loader": "^0.0.3"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/felipesuri/felipesuri.com"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "sass-loader": "^10.1.1"
   }
 }

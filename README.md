@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img alt="Logo" src="src/images/gatsby-icon.png" width="200px" />
+	<img alt="Logo" src="static/favicon.png" width="200px" />
 </h1>
 
 
@@ -47,11 +47,7 @@ This is my [blog](https://felipesuri.com "My website") code, you can contribute 
 
 Technologies that I used to develop this web client
 
-- [ReactJS](https://reactjs.org/)
-- [Styled Icons](https://styled-icons.js.org/)
-- [Styled Components](https://styled-components.com/)
 - [Gitmoji](https://gitmoji.carloscuesta.me/)
-- [Prettier](https://prettier.io/)
 - [EditorConfig](https://editorconfig.org/)
 
 ## 📝 License

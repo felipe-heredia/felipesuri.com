@@ -1,0 +1,24 @@
+{
+  "name": "felipesuri",
+  "private": true,
+  "description": "My personal website using GatsbyJS",
+  "version": "beta 2.0.0",
+  "author": {
+    "name": "felipesuri",
+    "email": "felipe@felipesuri.com",
+    "url": "https://felipesuri.com"
+  },
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felipesuri/felipesuri.com"
+  }
+}

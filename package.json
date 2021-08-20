@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@gridsome/source-graphql": "^0.1.0",
+    "buefy": "^0.9.8",
     "gridsome": "^0.7.0"
   },
   "license": "MIT",

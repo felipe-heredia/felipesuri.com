@@ -1,0 +1,27 @@
+@import "./import_defaults.scss";
+
+$family-sans-serif: 'Poppins', 'Nunito', sans-serif;
+
+@import "~bulma/sass/utilities/_all";
+
+$primary: #343A40;
+$dark: #CED4DA;
+$skills: #6C757D;
+
+$colors: (
+  'white': ($white, $black),
+  'black': ($primary, $primary-invert),
+  'dark': ($dark, $dark-invert),
+  'primary': ($primary, $primary-invert),
+  'info': ($info, $info-invert),
+  'success': ($success, $success-invert),
+  'warning': ($warning, $warning-invert),
+  'danger': ($danger, $danger-invert)
+);
+
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+
+@import "~bulma";
+@import "~buefy/src/scss/buefy";

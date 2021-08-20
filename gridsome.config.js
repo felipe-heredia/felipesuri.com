@@ -17,6 +17,15 @@ module.exports = {
         fieldName: "strapi",
         typeName: "strapiTypes"
       }
+    },
+    {
+      use: "gridsome-plugin-sass-resources-loader",
+      options: {
+        resources: [
+          "@/assets/scss/colors.scss",
+          "@/assets/scss/import_defaults.scss"
+        ]
+      }
     }
   ]
 };

@@ -8,6 +8,8 @@
       {{ $page.strapi.home.Hero.presentation }}
     </p>
 
+    <b-button type="is-primary">Primary</b-button>
+
     <p class="home-links">
       <a href="https://gridsome.org/docs/" target="_blank" rel="noopener"
         >Gridsome Docs</a
@@ -79,8 +81,12 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .home-links a {
   margin-right: 1rem;
+}
+
+h1 {
+  font-family: "Berkshire Swash";
 }
 </style>

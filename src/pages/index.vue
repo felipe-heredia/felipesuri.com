@@ -1,26 +1,25 @@
 <template>
-  <Layout>
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
+  <Layout class="page-wrapper">
+    <div class="title-wrapper">
+      <h1>{{ $page.strapi.home.Hero.title }}!</h1>
 
-    <h1>{{ $page.strapi.home.Hero.title }}!</h1>
+      <p>
+        {{ $page.strapi.home.Hero.presentation }}
+      </p>
 
-    <p>
-      {{ $page.strapi.home.Hero.presentation }}
-    </p>
+      <span>
+        Você pode ver uma explicação mais detalhada sobre mim
+        <g-link to="/about" class="link">nessa página</g-link>.
+      </span>
+    </div>
 
-    <b-button type="is-primary">Primary</b-button>
+    <div class="skills">
+      <h2>Skills</h2>
 
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener"
-        >Gridsome Docs</a
-      >
-      <a
-        href="https://github.com/gridsome/gridsome"
-        target="_blank"
-        rel="noopener"
-        >GitHub</a
-      >
-    </p>
+      <div class="skills-wrapper">
+        <Skill :skill="skill" v-for="skill in skills" :key="skill.id" />
+      </div>
+    </div>
   </Layout>
 </template>
 
@@ -49,15 +48,22 @@ query {
         }
       }
     }
+    skills {
+      id
+      title
+      icon
+    }
   }
 }
 </page-query>
 
 <script>
+import Skill from "@/components/Skill.vue";
 import { getMetaTags } from "@/utils/seo";
 import { getStrapiMedia } from "@/utils/medias";
 
 export default {
+  components: { Skill },
   metaInfo() {
     const { Seo } = this.$page.strapi.home;
     const { defaultSeo, favicon } = this.$page.strapi.globalSeo;
@@ -77,16 +83,53 @@ export default {
         }
       ]
     };
+  },
+  data() {
+    return {
+      skills: {}
+    };
+  },
+  created() {
+    this.skills = this.$page.strapi.skills;
   }
 };
 </script>
 
-<style lang="scss">
-.home-links a {
-  margin-right: 1rem;
+<style lang="scss" scoped>
+.title-wrapper {
+  h1 {
+    font-family: "Berkshire Swash";
+    font-size: 2.2rem;
+    margin-bottom: 0;
+  }
+
+  p,
+  span {
+    font-size: 1.2rem;
+  }
+
+  span {
+    margin-top: 0.4rem;
+  }
 }
 
-h1 {
-  font-family: "Berkshire Swash";
+.skills {
+  margin-top: 4rem;
+  color: $purple;
+
+  h2 {
+    font: 800 2rem "Nunito", sans-serif;
+    margin-bottom: 2rem;
+  }
+
+  .skills-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    overflow: hidden;
+    max-width: 36rem;
+  }
 }
 </style>

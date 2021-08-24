@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.link {
+  transition: all 1s;
+  color: $purple;
+
+  &:hover {
+    color: darken($purple, 25%);
+  }
+}

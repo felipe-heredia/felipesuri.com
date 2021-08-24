@@ -3,15 +3,18 @@
 $family-sans-serif: 'Poppins', 'Nunito', sans-serif;
 
 @import "~bulma/sass/utilities/_all";
+@import "./_reset.scss";
 
 $primary: #343A40;
 $dark: #CED4DA;
 $skills: #6C757D;
+$purple: #8c67ef;
 
 $colors: (
   'white': ($white, $black),
   'black': ($primary, $primary-invert),
   'dark': ($dark, $dark-invert),
+  'purple': ($purple, $purple-invert),
   'primary': ($primary, $primary-invert),
   'info': ($info, $info-invert),
   'success': ($success, $success-invert),

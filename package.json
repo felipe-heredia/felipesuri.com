@@ -17,6 +17,7 @@
     "@gridsome/remark-prismjs": "^0.5.0",
     "@gridsome/source-graphql": "^0.1.0",
     "buefy": "^0.9.8",
+    "date-fns": "^2.23.0",
     "gridsome": "^0.7.0",
     "gridsome-plugin-sass-resources-loader": "^0.0.3"
   },

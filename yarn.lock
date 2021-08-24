@@ -987,6 +987,11 @@
     log-update "^2.3.0"
     p-map "^1.2.0"
 
+"@iconify/vue2@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@iconify/vue2/-/vue2-1.0.0.tgz#a3488266ff1a8c5cf9b36f785bda3d1ea45ac44d"
+  integrity sha512-XbPTF/iumlazYQIth091qUOEqfemDkG3BFyAIL43fVRQxzEOsrl4dhSL5EfQuHwBFQdqsoFgD/JHeIDuFVdZOQ==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"

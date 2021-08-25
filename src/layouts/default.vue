@@ -3,9 +3,7 @@
     <b-navbar class="header">
       <template #brand>
         <b-navbar-item>
-          <strong>
-            <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-          </strong>
+          <Logo />
         </b-navbar-item>
       </template>
 
@@ -54,9 +52,7 @@
 
       <template #end>
         <b-navbar-item>
-          <strong>
-            <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-          </strong>
+          <Logo />
         </b-navbar-item>
       </template>
     </b-navbar>
@@ -74,8 +70,10 @@ query {
 <script>
 import { Icon } from "@iconify/vue2";
 
+import Logo from "@/components/Logo.vue";
+
 export default {
-  components: { Icon }
+  components: { Icon, Logo }
 };
 </script>
 

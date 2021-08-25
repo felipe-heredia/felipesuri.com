@@ -13,6 +13,12 @@
       </span>
     </div>
 
+    <g-link class="link blog-link" to="/blog">
+      Ver meu blog
+
+      <Icon icon="akar-icons:arrow-right" />
+    </g-link>
+
     <div class="skills">
       <h2>Skills</h2>
 
@@ -58,12 +64,14 @@ query {
 </page-query>
 
 <script>
+import { Icon } from "@iconify/vue2";
+
 import Skill from "@/components/Skill.vue";
 import { getMetaTags } from "@/utils/seo";
 import { getStrapiMedia } from "@/utils/medias";
 
 export default {
-  components: { Skill },
+  components: { Skill, Icon },
   metaInfo() {
     const { Seo } = this.$page.strapi.home;
     const { defaultSeo, favicon } = this.$page.strapi.globalSeo;
@@ -113,8 +121,26 @@ export default {
   }
 }
 
+.blog-link {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  font: 500 1.6rem "Berkshire Swash", cursive;
+
+  svg {
+    margin-left: 5px;
+    transition: all 1s;
+  }
+
+  &:hover {
+    svg {
+      transform: translateX(8px);
+    }
+  }
+}
+
 .skills {
-  margin-top: 4rem;
+  margin-top: 2rem;
   color: $purple;
 
   h2 {

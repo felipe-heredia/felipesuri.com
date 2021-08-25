@@ -2,8 +2,9 @@
   <Layout>
     <h1 class="post-title">{{ article.title }}</h1>
     <p>Publicado em {{ formattedDate }}</p>
+    <span class="post-category">#{{ article.category.title }}</span>
 
-    <article class="post-content">
+    <article class="content">
       <div class="post-header" v-if="article.cover">
         <g-image :src="coverUrl" />
       </div>
@@ -97,7 +98,15 @@ export default {
   font: 600 2rem "Poppins", sans-serif;
 }
 
-.post-content {
+.post-category {
+  font: 500 1rem "Poppins", sans-serif;
+  background: $dark;
+  padding: 0.8rem 1.4rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.content {
   width: 50rem;
   background: darken($white, 5%);
   border-radius: 2rem;
@@ -139,6 +148,19 @@ export default {
           color: darken($purple, 25%);
         }
       }
+    }
+  }
+
+  @media (max-width: 860px) {
+    width: 95%;
+    text-align: justify;
+
+    .markdown:first-child {
+      padding: 2rem;
+    }
+
+    .markdown {
+      padding: 1rem 2rem;
     }
   }
 }

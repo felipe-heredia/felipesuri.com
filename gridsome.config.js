@@ -27,7 +27,10 @@ module.exports = {
   ],
   transformers: {
     remark: {
-      plugins: ["@gridsome/remark-prismjs"]
+      externalLinksTarget: "_blank",
+      externalLinksRel: ["nofollow", "noopener"],
+      anchorClassName: "icon icon-link",
+      plugins: ["gridsome-plugin-remark-prismjs-all"]
     }
   }
 };

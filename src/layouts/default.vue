@@ -107,7 +107,8 @@ export default {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 80vh;
+    min-height: 75vh;
+    margin-bottom: 3rem;
   }
 
   .footer-nav {

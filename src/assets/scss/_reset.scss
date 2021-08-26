@@ -2,6 +2,11 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
+
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .link {

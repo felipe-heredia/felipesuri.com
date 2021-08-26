@@ -1,5 +1,12 @@
 <template>
   <Layout>
+    <div class="return">
+      <g-link :to="lastRoute">
+        <Icon icon="akar-icons:arrow-left" />
+        Voltar para a listagem
+      </g-link>
+    </div>
+
     <h1 class="post-title">{{ article.title }}</h1>
     <p>Publicado em {{ formattedDate }}</p>
     <span class="post-category">#{{ article.category.title }}</span>
@@ -51,12 +58,13 @@ query($slug: String!) {
 </page-query>
 
 <script>
+import { Icon } from "@iconify/vue2";
 import VueMarkdown from "vue-markdown";
 import { format, addDays } from "date-fns";
 import locale from "date-fns/locale/pt-BR";
 
 export default {
-  components: { VueMarkdown },
+  components: { Icon, VueMarkdown },
   metaInfo() {
     return {
       title: this.article.title,
@@ -70,7 +78,8 @@ export default {
   },
   data() {
     return {
-      article: []
+      article: [],
+      lastRoute: ""
     };
   },
   created() {
@@ -89,11 +98,53 @@ export default {
 
       return `${adminUrl}${cover.url}`;
     }
+  },
+  beforeRouteEnter(_, from, next) {
+    next(vm => {
+      vm.lastRoute = from;
+    });
   }
 };
 </script>
 
 <style lang="scss">
+.return {
+  display: flex;
+  width: 60%;
+
+  a {
+    color: $purple;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    will-change: transform;
+
+    &:after {
+      background-color: $purple;
+      content: "";
+      height: 2px;
+      margin-top: 0.2rem;
+      left: 0;
+      position: absolute;
+      top: 100%;
+      transform: scaleX(0);
+      transition: transform 0.5s;
+      width: 100%;
+    }
+
+    &:hover {
+      &:after {
+        transform: scaleX(1);
+      }
+    }
+
+    svg {
+      margin-right: 5px;
+    }
+  }
+}
+
 .post-title {
   font: 600 2rem "Poppins", sans-serif;
 }

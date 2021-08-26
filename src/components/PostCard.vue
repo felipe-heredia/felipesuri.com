@@ -50,6 +50,10 @@ export default {
   position: relative;
   will-change: border-color;
 
+  @media (max-width: 860px) {
+    width: 90%;
+  }
+
   &:after,
   &:before {
     bottom: 0;
@@ -97,8 +101,12 @@ export default {
     padding: 1rem 5rem 5rem;
     text-align: start;
 
+    @media (max-width: 860px) {
+      padding: 1rem 2rem 2rem;
+    }
+
     .post-title {
-      font: 600 2rem "Poppins", sans-serif;
+      font: 600 1.8rem "Poppins", sans-serif;
       margin-bottom: 1rem;
     }
 
@@ -122,6 +130,10 @@ export default {
 
   aside.post-content:first-child {
     padding: 5rem;
+
+    @media (max-width: 860px) {
+      padding: 3rem;
+    }
   }
 }
 </style>

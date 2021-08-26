@@ -23,6 +23,12 @@ query {
         formats
       }
     }
+    blog {
+      Seo {
+        metaTitle,
+        metaDescription,
+      }
+    }
   }
 }
 </page-query>
@@ -32,6 +38,17 @@ import PostCard from "@/components/PostCard.vue";
 
 export default {
   components: { PostCard },
+  metaInfo() {
+    return {
+      title: this.$page.strapi.blog.Seo.metaTitle,
+      meta: [
+        {
+          name: "description",
+          content: this.$page.strapi.blog.Seo.metaDescription
+        }
+      ]
+    };
+  },
   data() {
     return {
       articles: {}
@@ -39,7 +56,6 @@ export default {
   },
   created() {
     this.articles = this.$page.strapi.articles;
-    console.log(this.articles);
   }
 };
 </script>

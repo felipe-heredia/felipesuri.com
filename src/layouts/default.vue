@@ -20,9 +20,11 @@
       </template>
     </b-navbar>
 
-    <main>
-      <slot />
-    </main>
+    <transition name="slide-fade" appear>
+      <main>
+        <slot />
+      </main>
+    </transition>
 
     <b-navbar class="footer-nav">
       <template #brand>
@@ -52,7 +54,7 @@
 
       <template #end>
         <b-navbar-item>
-          <Logo />
+          © {{ new Date().getFullYear() }} felipesuri. All rights reserved.
         </b-navbar-item>
       </template>
     </b-navbar>
@@ -122,5 +124,19 @@ export default {
       }
     }
   }
+}
+
+.slide-fade-enter-active {
+  transition: all 2s ease;
+}
+
+.slide-fade-leave-active {
+  opacity: 50%;
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+  transform: translateX(50px);
+  opacity: 0;
 }
 </style>

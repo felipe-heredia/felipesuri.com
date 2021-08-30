@@ -24,7 +24,7 @@
           class="text"
           :anchorAttributes="{
             target: '_blank',
-            rel: 'nofollow noopener noreferrer'
+            rel: 'nofollow noopener noreferrer',
           }"
         />
       </div>
@@ -71,15 +71,15 @@ export default {
       meta: [
         {
           name: "description",
-          content: this.article.description
-        }
-      ]
+          content: this.article.description,
+        },
+      ],
     };
   },
   data() {
     return {
       article: [],
-      lastRoute: ""
+      lastRoute: "",
     };
   },
   created() {
@@ -97,13 +97,13 @@ export default {
       const cover = this.article.cover;
 
       return `${adminUrl}${cover.url}`;
-    }
+    },
   },
   beforeRouteEnter(_, from, next) {
     next(vm => {
       vm.lastRoute = from;
     });
-  }
+  },
 };
 </script>
 
@@ -161,8 +161,7 @@ export default {
   width: 50rem;
   background: darken($white, 5%);
   border-radius: 2rem;
-  box-shadow: 4px 4px 5px 0 rgba(0, 0, 0, 0.02),
-    4px 4px 15px 0 rgba(0, 0, 0, 0.03);
+  box-shadow: 4px 4px 5px 0 rgba(0, 0, 0, 0.02), 4px 4px 15px 0 rgba(0, 0, 0, 0.03);
   margin-top: 2rem;
 
   text-align: start;

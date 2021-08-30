@@ -15,22 +15,22 @@ module.exports = {
       options: {
         url: strapiURL + "/graphql",
         fieldName: "strapi",
-        typeName: "strapiTypes"
-      }
+        typeName: "strapiTypes",
+      },
     },
     {
       use: "gridsome-plugin-sass-resources-loader",
       options: {
-        resources: ["@/assets/scss/colors.scss"]
-      }
-    }
+        resources: ["@/assets/scss/colors.scss"],
+      },
+    },
   ],
   transformers: {
     remark: {
       externalLinksTarget: "_blank",
       externalLinksRel: ["nofollow", "noopener"],
-      anchorClassName: "icon icon-link",
-      plugins: ["gridsome-plugin-remark-prismjs-all"]
-    }
-  }
+      anchorClassName: "link",
+      plugins: ["gridsome-plugin-remark-prismjs-all"],
+    },
+  },
 };

@@ -14,9 +14,9 @@ export default {
   props: {
     skill: {
       required: true,
-      type: Object
-    }
-  }
+      type: Object,
+    },
+  },
 };
 </script>
 

@@ -21,8 +21,8 @@ export default {
   props: {
     article: {
       required: true,
-      type: Object
-    }
+      type: Object,
+    },
   },
   computed: {
     formattedDate() {
@@ -36,8 +36,8 @@ export default {
       const cover = this.article.cover.formats.medium.url;
 
       return `${adminUrl}${cover}`;
-    }
-  }
+    },
+  },
 };
 </script>
 

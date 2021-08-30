@@ -1,10 +1,6 @@
 <template>
   <Layout>
-    <PostCard
-      v-for="article in articles"
-      :key="article.tite"
-      :article="article"
-    />
+    <PostCard v-for="article in articles" :key="article.tite" :article="article" />
   </Layout>
 </template>
 
@@ -44,19 +40,19 @@ export default {
       meta: [
         {
           name: "description",
-          content: this.$page.strapi.blog.Seo.metaDescription
-        }
-      ]
+          content: this.$page.strapi.blog.Seo.metaDescription,
+        },
+      ],
     };
   },
   data() {
     return {
-      articles: {}
+      articles: {},
     };
   },
   created() {
     this.articles = this.$page.strapi.articles;
-  }
+  },
 };
 </script>
 

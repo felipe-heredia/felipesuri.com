@@ -2,11 +2,9 @@
 	<img alt="Logo" src="static/favicon.png" width="200px" />
 </h1>
 
-
 <h3 align="center">
   felipesuri.com
 </h3>
-
 
 <p align="center">My personal website!</p>
 
@@ -15,7 +13,6 @@
   <a href="https://felipesuri.com">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-felipesuri-gree">
   </a>
-
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/felipesuri/felipesuri.com">
 
@@ -37,7 +34,6 @@
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
-
 
 ## 👨🏻‍💻 About the project
 

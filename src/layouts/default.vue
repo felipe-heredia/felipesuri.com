@@ -8,15 +8,9 @@
       </template>
 
       <template #end>
-        <b-navbar-item href="/" class="item">
-          Página Inicial
-        </b-navbar-item>
-        <b-navbar-item href="/blog" class="item">
-          Blog
-        </b-navbar-item>
-        <b-navbar-item href="/about" class="item">
-          Sobre mim
-        </b-navbar-item>
+        <b-navbar-item href="/" class="item"> Página Inicial </b-navbar-item>
+        <b-navbar-item href="/blog" class="item"> Blog </b-navbar-item>
+        <b-navbar-item href="/about" class="item"> Sobre mim </b-navbar-item>
       </template>
     </b-navbar>
 
@@ -32,10 +26,7 @@
           <Icon icon="bx:bxl-github" />
         </b-navbar-item>
 
-        <b-navbar-item
-          href="https://linkedin.com/in/felipesuri"
-          target="_blank"
-        >
+        <b-navbar-item href="https://linkedin.com/in/felipesuri" target="_blank">
           <Icon icon="bx:bxl-linkedin" />
         </b-navbar-item>
 
@@ -54,7 +45,7 @@
 
       <template #end>
         <b-navbar-item>
-          © {{ new Date().getFullYear() }} felipesuri. All rights reserved.
+          © {{ new Date().getFullYear() }} felipesuri. Todos os direitos reservados
         </b-navbar-item>
       </template>
     </b-navbar>
@@ -75,7 +66,7 @@ import { Icon } from "@iconify/vue2";
 import Logo from "@/components/Logo.vue";
 
 export default {
-  components: { Icon, Logo }
+  components: { Icon, Logo },
 };
 </script>
 

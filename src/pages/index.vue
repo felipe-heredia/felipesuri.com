@@ -78,7 +78,7 @@ export default {
 
     const fullSeo = {
       ...defaultSeo,
-      ...Seo
+      ...Seo,
     };
 
     return {
@@ -87,19 +87,19 @@ export default {
       link: [
         {
           rel: "favicon",
-          href: getStrapiMedia(favicon.url)
-        }
-      ]
+          href: getStrapiMedia(favicon.url),
+        },
+      ],
     };
   },
   data() {
     return {
-      skills: {}
+      skills: {},
     };
   },
   created() {
     this.skills = this.$page.strapi.skills;
-  }
+  },
 };
 </script>
 

@@ -5,7 +5,7 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-module.exports = function(api) {
+module.exports = function (api) {
   api.createPages(async ({ graphql, createPage }) => {
     const { data } = await graphql(`
       {
@@ -25,8 +25,8 @@ module.exports = function(api) {
         path: `/article/${article.slug}`,
         component: "./src/templates/Article.vue",
         context: {
-          slug: article.slug
-        }
+          slug: article.slug,
+        },
       });
     });
   });

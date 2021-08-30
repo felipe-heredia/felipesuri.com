@@ -26,9 +26,9 @@ export default {
   components: { VueMarkdown },
   metaInfo() {
     return {
-      title: this.$page.strapi.about.title
+      title: this.$page.strapi.about.title,
     };
-  }
+  },
 };
 </script>
 

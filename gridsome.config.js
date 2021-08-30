@@ -9,7 +9,9 @@ const strapiURL = process.env.GRIDSOME_ADMIN_URL || "http://localhost:1338";
 module.exports = {
   siteName: "felipesuri",
   titleTemplate: "%s | felipesuri VueJS Developer",
+  siteUrl: "https://felipesuri.com",
   plugins: [
+    "gridsome-plugin-robots-txt",
     {
       use: "@gridsome/source-graphql",
       options: {

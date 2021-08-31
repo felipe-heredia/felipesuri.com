@@ -1,5 +1,4 @@
 {
-  "editor.formatOnSave": true,
   "endOfLine": "lf",
   "printWidth": 90,
   "arrowParens": "avoid",

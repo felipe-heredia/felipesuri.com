@@ -1,12 +1,10 @@
 <h1 align="center">
-	<img alt="Logo" src="src/images/gatsby-icon.png" width="200px" />
+	<img alt="Logo" src="static/favicon.png" width="200px" />
 </h1>
-
 
 <h3 align="center">
   felipesuri.com
 </h3>
-
 
 <p align="center">My personal website!</p>
 
@@ -15,7 +13,6 @@
   <a href="https://felipesuri.com">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-felipesuri-gree">
   </a>
-
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/felipesuri/felipesuri.com">
 
@@ -38,7 +35,6 @@
   <a href="#-license">License</a>
 </p>
 
-
 ## 👨🏻‍💻 About the project
 
 This is my [blog](https://felipesuri.com "My website") code, you can contribute to my blog!
@@ -47,11 +43,7 @@ This is my [blog](https://felipesuri.com "My website") code, you can contribute 
 
 Technologies that I used to develop this web client
 
-- [ReactJS](https://reactjs.org/)
-- [Styled Icons](https://styled-icons.js.org/)
-- [Styled Components](https://styled-components.com/)
 - [Gitmoji](https://gitmoji.carloscuesta.me/)
-- [Prettier](https://prettier.io/)
 - [EditorConfig](https://editorconfig.org/)
 
 ## 📝 License

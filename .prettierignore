@@ -1,5 +1,4 @@
 .cache
-.editorconfig
-package.json
-package-lock.json
-public
+.temp
+
+

@@ -63,7 +63,6 @@ import VueMarkdown from "@adapttive/vue-markdown";
 import { format, addDays } from "date-fns";
 import locale from "date-fns/locale/pt-BR";
 
-import { getStrapiMedia } from "~/utils/medias";
 import { getMetaTags } from "~/utils/seo";
 
 export default {

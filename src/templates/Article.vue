@@ -59,7 +59,7 @@ query($slug: String!) {
 
 <script>
 import { Icon } from "@iconify/vue2";
-import VueMarkdown from "vue-markdown";
+import VueMarkdown from "@adapttive/vue-markdown";
 import { format, addDays } from "date-fns";
 import locale from "date-fns/locale/pt-BR";
 

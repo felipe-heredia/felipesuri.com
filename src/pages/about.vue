@@ -20,7 +20,7 @@ query {
 </page-query>
 
 <script>
-import VueMarkdown from "vue-markdown";
+import VueMarkdown from "@adapttive/vue-markdown";
 
 export default {
   components: { VueMarkdown },

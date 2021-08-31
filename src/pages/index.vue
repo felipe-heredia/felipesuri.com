@@ -43,9 +43,6 @@ query {
       }
     }
     globalSeo {
-      favicon {
-        url
-      }
       defaultSeo {
         metaTitle
         metaDescription
@@ -68,13 +65,12 @@ import { Icon } from "@iconify/vue2";
 
 import Skill from "@/components/Skill.vue";
 import { getMetaTags } from "@/utils/seo";
-import { getStrapiMedia } from "@/utils/medias";
 
 export default {
   components: { Skill, Icon },
   metaInfo() {
     const { Seo } = this.$page.strapi.home;
-    const { defaultSeo, favicon } = this.$page.strapi.globalSeo;
+    const { defaultSeo } = this.$page.strapi.globalSeo;
 
     const fullSeo = {
       ...defaultSeo,
@@ -84,12 +80,6 @@ export default {
     return {
       title: fullSeo.metaTitle,
       meta: getMetaTags(fullSeo),
-      link: [
-        {
-          rel: "favicon",
-          href: getStrapiMedia(favicon.url),
-        },
-      ],
     };
   },
   data() {

@@ -14,6 +14,7 @@
     "build": "gridsome build"
   },
   "dependencies": {
+    "@adapttive/vue-markdown": "^4.0.1",
     "@gridsome/source-graphql": "^0.1.0",
     "babel-runtime": "^6.26.0",
     "buefy": "^0.9.8",
@@ -21,8 +22,7 @@
     "gridsome": "^0.7.0",
     "gridsome-plugin-remark-prismjs-all": "^0.4.8",
     "gridsome-plugin-robots-txt": "^1.0.2",
-    "gridsome-plugin-sass-resources-loader": "^0.0.3",
-    "vue-markdown": "^2.2.4"
+    "gridsome-plugin-sass-resources-loader": "^0.0.3"
   },
   "license": "MIT",
   "repository": {

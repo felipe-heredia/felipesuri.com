@@ -63,17 +63,23 @@ import VueMarkdown from "@adapttive/vue-markdown";
 import { format, addDays } from "date-fns";
 import locale from "date-fns/locale/pt-BR";
 
+import { getStrapiMedia } from "~/utils/medias";
+import { getMetaTags } from "~/utils/seo";
+
 export default {
   components: { Icon, VueMarkdown },
   metaInfo() {
+    const { title, description, image } = this.article;
+
+    const seo = {
+      metaTitle: title,
+      metaDescription: description,
+      shareImage: image,
+    };
+
     return {
-      title: this.article.title,
-      meta: [
-        {
-          name: "description",
-          content: this.article.description,
-        },
-      ],
+      title,
+      meta: getMetaTags(seo),
     };
   },
   data() {

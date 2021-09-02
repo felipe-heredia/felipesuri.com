@@ -7,7 +7,7 @@
 <page-query>
 query {
   strapi {
-    articles {
+    articles (sort: "date:DESC") {
       title,
       description,
       date,

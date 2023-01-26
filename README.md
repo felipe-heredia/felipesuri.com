@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img alt="Logo" src="static/favicon.png" width="200px" />
+	<img alt="Logo" src="src/favicon.ico" width="200px" />
 </h1>
 
 <h3 align="center">
@@ -27,7 +27,9 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/felipesuri/felipesuri.com">
 </p>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/93c1ebf2-fac3-432b-826a-d9a0273463f1/deploy-status)](https://app.netlify.com/sites/felipesuri/deploys)
+<p align="center">
+  <img src="https://api.netlify.com/api/v1/badges/93c1ebf2-fac3-432b-826a-d9a0273463f1/deploy-status" alt="Website Status">
+</p>
 
 <p align="center">
   <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -48,8 +50,8 @@ Technologies that I used to develop this web client
 
 ## 📝 License
 
-This project is under a licensa - see the [LICENSE](LICENSE) file for details.
+This project is under a license - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-Made with 💞 by FelipeSuri.
+Made with 💞 by Felipe Heredia.
